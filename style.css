@@ -1,0 +1,105 @@
+/* IMPORTAÇÃO DE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* CONFIG PADRÕES */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    color: black;
+    font-family: 'Lato';
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* CONFIG LINK */
+
+a:hover{
+    color: white;
+}
+
+/* HEADER */
+
+.header{
+    background-color: #9f9f9f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.header-logo img{
+    height: 80px;
+    width: 80px;
+}
+
+/* MAIN-1 */
+
+.main-1{
+
+    height: 590px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* MAIN-1-BOARDS */
+
+.main-1-board-1{
+    height: 300px;
+    width: 400px;
+}
+
+/* MAIN-1-BUTTONS*/
+
+.main-1-button{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+
+.main-1 button{
+    margin-top: 10px;
+    color: rgb(255, 253, 253);
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #282828;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button:hover{
+    background-color: #000000;
+}
+
+@media screen and (max-width: 950px) {
+    .img-board-1 img{
+        display: none;
+    }
+
+    .main-1, .main-1-board-1{
+        justify-content: center;
+        padding: 15px;
+        align-items: center;
+    }
+}
