@@ -103,8 +103,8 @@ a{
 /* MAIN-2*/
 
 .main-3{
-    margin-top: 250px;
-    height: 500px;
+    margin-top: 200px;
+    height: 500px; 
 }
 
 /* MAIN-2-BOARDS*/
@@ -134,16 +134,6 @@ a{
     padding: 15px;
 }
 
-#main-3-board-1-projeto-importante{
-    background-color: rgba(110, 121, 191, 0.984);
-    width: 300px;
-    height: 300px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    text-align: center;
-    border-radius: 5%;
-    cursor: pointer;
-    padding: 15px;
-}
 
 .projeto-linguagens{
     width: 80px;
