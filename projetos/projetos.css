@@ -50,10 +50,8 @@ a{
 /* MAIN-2 */
 
 .main-2{
-
     height: 500px;
     margin-top: 40px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,10 +74,11 @@ a{
 
 .main-2-board-1-exp ul{
     display: flex;
-    justify-content: left;
-   
+    justify-content: center;
+    align-items: center;
     padding: 0;
-    height: 100px;
+   
+    height: 120px;
     gap: 10px;
     text-align: center;
     flex-wrap: wrap;
@@ -103,8 +102,8 @@ a{
 /* MAIN-2*/
 
 .main-3{
-    margin-top: 200px;
-    height: 500px; 
+    margin-top: 60px;
+    height: 450px; 
 }
 
 /* MAIN-2-BOARDS*/
