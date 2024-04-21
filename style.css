@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F2F2F2;
-    color: black;
+    color: #000000;
     font-family: 'Lato';
 }
 
@@ -17,13 +17,13 @@ ul{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 /* CONFIG LINK */
 
 a:hover{
-    color: white;
+    color: #ffffff;
 }
 
 /* HEADER */
@@ -75,22 +75,27 @@ a:hover{
     gap: 40px;
 }
 
-.main-1 button{
+.main-1 button {
     margin-top: 10px;
-    color: rgb(255, 253, 253);
+    color: #fffdfd;
     border-radius: 10px;
-    height: 40px;
-    width: 150px;
+    height: 42px;
+    width: 130px;
     background-color: #282828;
     border: none;
     padding: 10px;
     cursor: pointer;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: #959da533 0px 8px 24px;
+    transition: background-color 1s, color 1s, box-shadow 1s;
+
 }
 
-button:hover{
-    background-color: #000000;
+.main-1 button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: #00000051 0px 8px 24px;
 }
+
 
 @media screen and (max-width: 950px) {
     .img-board-1 img{
