@@ -118,9 +118,6 @@ a{
     justify-content: center;
 }
 
-.main-3-board-1-projetos :hover{
-    background-color: #eeeeee;
-}
 
 .main-3-board-1-projeto{
     background-color: #ffffff;
@@ -131,7 +128,11 @@ a{
     border-radius: 5%;
     cursor: pointer;
     padding: 15px;
-    display: inline-block;
+    transition: background-color 1s, color 1s, box-shadow 1s;
+}
+
+.main-3-board-1-projeto:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 
@@ -173,3 +174,4 @@ a{
         height: 1000px;
     }
 }
+
