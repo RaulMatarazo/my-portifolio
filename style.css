@@ -36,23 +36,16 @@ a:hover{
     align-items: center;
 }
 
-.header-menu{
-    display: flex;
-    gap: 10px;
-}
-
 .header-logo img{
     height: 80px;
     width: 80px;
+    transition: 1s height, 1s width;
 }
 
 /* MAIN-1 */
 
 .main-1{
-
-    height: 590px;
     margin-top: 20px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
