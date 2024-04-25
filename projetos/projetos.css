@@ -87,7 +87,19 @@ a{
     width: 80px;
     padding: 6px;
     height: 40px;
-    border-radius: 1%;
+    border-radius: 2%;
+    box-shadow: #959da533 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linguagem-dupla{
+    background-color: #ffffff;
+    width: 100px;
+    padding: 6px;
+    height: 40px;
+    border-radius: 2%;
     box-shadow: #959da533 0px 8px 24px;
     display: flex;
     justify-content: center;
