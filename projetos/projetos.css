@@ -109,16 +109,11 @@ a{
 /* MAIN-2*/
 
 .main-3{
-    height: 480px;
-    background-color: antiquewhite;
-    padding-bottom: 20px
-}
-
-.projects{
-    overflow-x: scroll; /* permitir rolagem apenas na horizontal */
+    height: 430px;
 }
 
 /* MAIN-2-BOARDS*/
+
 .main-3-board-1{
     text-align: center;
 }
