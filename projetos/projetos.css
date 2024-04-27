@@ -109,8 +109,10 @@ a{
 /* MAIN-2*/
 
 .main-3{
-    height: 430px;
+    height: auto;
+    padding: 20px;
 }
+
 
 /* MAIN-2-BOARDS*/
 
@@ -121,7 +123,7 @@ a{
 .main-3-board-1-projetos{
     display: flex;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     justify-content: center;
 }
 
