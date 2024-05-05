@@ -16,4 +16,4 @@ So, this is my portfolio. You can see my experiences in it.
 
 ## If you are a recruiter
 
-I'd be glad if you take a look. I'm wainting for your message. Thanks!!
+I'd be glad if you take a look. I'm waiting for your message. Thanks!!
