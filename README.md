@@ -2,7 +2,6 @@
 # My Portfolio
 
 So, this is my portfolio. You can see my experiences in it.
-Click here to 
 
 ## How can i see the project?
 
