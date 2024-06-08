@@ -63,8 +63,8 @@ a{
 .main-2-board-1-exp{
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }
 
 .main-2-board-1-exp ul{
@@ -72,8 +72,8 @@ a{
     justify-content: center;
     align-items: center;
     padding: 0;
-   
-    height: 120px;
+    
+    height: 230px;
     gap: 10px;
     text-align: center;
     flex-wrap: wrap;
@@ -118,6 +118,7 @@ a{
 
 .main-3-board-1{
     text-align: center;
+    margin-top: 210px;
 }
 
 .main-3-board-1-projetos{
