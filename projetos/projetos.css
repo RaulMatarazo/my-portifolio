@@ -63,18 +63,15 @@ a{
 .main-2-board-1-exp{
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 500px;
     width: 520px;
 }
 
 .main-2-board-1-exp ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
     
-    height: 230px;
-    gap: 10px;
+    height: 500px;
+    gap: 55px;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -84,10 +81,11 @@ a{
 
 .linguagem{
     background-color: #ffffff;
-    width: 80px;
-    padding: 11px;
-    height: 40px;
+    width: 150px;
+    padding: 8px;
+    height: 50px;
     border-radius: 4%;
+    margin-left: -40px;
     box-shadow: #959da533 0px 8px 24px;
     display: flex;
     justify-content: center;
@@ -186,8 +184,5 @@ a{
         width: 300px;
     }
     
-    .linguagem{
-        width: 200px;
-    }
 }
 
