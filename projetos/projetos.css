@@ -69,7 +69,7 @@ a{
 
 .main-2-board-1-exp ul{
     display: flex;
-    
+    width: 600px;
     height: 500px;
     gap: 55px;
     text-align: center;
@@ -108,6 +108,7 @@ a{
 
 .main-3{
     height: auto;
+    margin-top: 400px;
     padding: 20px;
 }
 
