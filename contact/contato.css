@@ -73,7 +73,6 @@ form{
     flex-direction: column;
     justify-content: center;
     padding: 100px;
-    background-color: whitesmoke;
 }
 
 @media screen and (max-width: 1000px) {
