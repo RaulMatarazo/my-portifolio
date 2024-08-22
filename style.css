@@ -100,4 +100,9 @@ a{
         padding: 15px;
         align-items: center;
     }
+
+    ul{
+        width: 70vw;
+        justify-content: space-around;
+    }
 }

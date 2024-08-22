@@ -10,7 +10,6 @@ body{
     background-color: #f2f2f2;
     color: #000000;
     font-family: 'Lato';
-    
 }
 
 ul{
@@ -20,7 +19,6 @@ ul{
 .menu-coisas {
     list-style: none;
     display: flex;
-    justify-content: space-between;
     justify-content: space-around;
     width: 30vw;
 }
@@ -166,7 +164,7 @@ main a{
     justify-content: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     .main-2-board-1-img img{
         display: none;
     }
@@ -193,6 +191,9 @@ main a{
         height: 600px;
         width: 300px;
     }
-    
+    .menu-coisas{
+        width: 70vw;
+        justify-content: space-around;
+    }
 }
 
