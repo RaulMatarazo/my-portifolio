@@ -1,4 +1,5 @@
 /* IMPORTAÇÃO DE FONTS */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /* CONFIG PADRÕES */
@@ -13,23 +14,22 @@ body{
 
 ul{
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
 }
 
 a{
     text-decoration: none;
-    color: #000000;
+    font-size: 17px;
+    color: white;
 }
 
-/* CONFIG LINK */
-
-a:hover{
-    color: #ffffff;
-}
 
 /* HEADER */
 
 .header{
-    background-color: #9f9f9f;
+    background-color: #282828;
     padding: 20px;
     display: flex;
     justify-content: space-around;

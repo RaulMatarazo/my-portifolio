@@ -1,6 +1,6 @@
 /* IMPORTAÇÃO DE FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /* CONFIG PADRÕES */
 
@@ -9,28 +9,29 @@ body{
     padding: 0;
     background-color: #f2f2f2;
     color: #000000;
-    font-family: 'Poppins';
+    font-family: 'Lato';
 }
 
 ul{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 30vw;
 }
 
 a{
     text-decoration: none;
-    color: #000000;
+    font-size: 17px;
+    
+    color: white;
 }
 
-/* CONFIG LINK */
-
-.header a:hover{
-    color: #ffffff;
-}
 
 /* HEADER */
 
 .header{
-    background-color: #9e9e9e;
+    background-color: #282828;
     padding: 20px;
     display: flex;
     justify-content: space-around;
