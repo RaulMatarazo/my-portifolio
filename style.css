@@ -13,14 +13,18 @@ body{
 }
 
 ul{
-    list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     width: 30vw;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
 }
 
 a{
     text-decoration: none;
+    margin-left: 0;
     font-size: 17px;
     color: white;
 }
