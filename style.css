@@ -50,6 +50,7 @@ a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
 }
 
 /* MAIN-1-BOARDS */
