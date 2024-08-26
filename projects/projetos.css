@@ -53,13 +53,12 @@ main a{
 }
 
 /* MAIN-2 */
-
 .main-2{
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0000002a;
+    
 }
 
 .main-2-board-1-exp ul{
@@ -67,8 +66,7 @@ main a{
     width: 600px;
     gap: 50px;
     text-align: center;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;   
 }
 
 .main-2-board-2{
@@ -76,7 +74,7 @@ main a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0000002a;
+    margin-left: 43px;
 }
 
 
@@ -146,33 +144,47 @@ main a{
     .main-2-board-1-img img{
         display: none;
     }
-
-    .main-2, .main-3{
+    
+    .main-2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
         justify-content: center;
-        padding: 15px;
+    }
+
+    .main-2-board-1-exp ul{
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
-    .main-3{
-        display: grid;
-        flex-wrap: wrap;
-        height: 1000px;
+    .main-2-board-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        
     }
+    
     .main-3-board-1-projetos{
         display: grid;
         flex-wrap: wrap;
-        height: 1000px;
-        margin-top: 100px;
     }
-    .main-2-board-1-exp{
-        display: flex;
-        flex-direction: column;
-        
-        width: 200px;
-        background-color: bisque;
-    }
+
     .menu-coisas{
         width: 70vw;
         justify-content: space-around;
     }
 }
 
+@media screen and (max-width: 670px) {
+    .main-2-board-1-exp ul{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    h1, h2{
+        text-align: center;
+    }
+}
