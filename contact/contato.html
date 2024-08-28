@@ -21,16 +21,16 @@
     </header>
     
     <main>
-      <form action="" method="post">
+      <form action="contato.php" method="post">
             <h1>Send me a message</h1>
-            <label for="txtnome">Name</label>
-            <input type="text">
+            <label for="txtNome">Name</label>
+            <input type="text" name="txtNome" required>
 
             <label for="txtEmail">E-mail</label>
-            <input type="email" name="txtEmail">
+            <input type="email" name="txtEmail" required>
 
             <label for="txtMensagem">Message</label>
-            <textarea name="txtMensagem"></textarea>
+            <textarea name="txtMensagem" required></textarea>
 
             <button  type="submit">Send</button>
       </form>
