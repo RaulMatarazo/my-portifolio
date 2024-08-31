@@ -1,32 +1,17 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recupera os dados do formulário
-    $nome = filter_input(INPUT_POST, 'txtNome', FILTER_SANITIZE_STRING);
-    $email = filter_input(INPUT_POST, 'txtEmail', FILTER_SANITIZE_EMAIL);
-    $mensagem = filter_input(INPUT_POST, 'txtMensagem', FILTER_SANITIZE_STRING);
+    if ($_SERVER["REQUEST_METHOD"] == "POST"){
+        $nome = htmlspecialchars($_POST['txtNome']);
+        $email = htmlspecialchars($_POST['txtEmail']);
+        $mensagem = htmlspecialchars($_POST['txtMensagem']);
 
-    // Validações básicas
-    if (empty($nome) || empty($email) || empty($mensagem)) {
-        echo "Por favor, preencha todos os campos.";
+        echo "<h1>Obrigado por sua mensagem, $nome!</h1>";
+        echo "<p><strong>Nome:</strong> $nome</p>";
+        echo "<p><strong>E-mail:</strong> $email</p>";
+        echo "<p><strong>Mensagem:</strong> $mensagem</p>";
+
+    } else{
+        header("Location: contato.html");
         exit;
     }
 
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Por favor, insira um endereço de email válido.";
-        exit;
-    }
-
-    // Configurações do email
-    $to = "raul.ulrich.matarazo@gmail.com"; // Substitua pelo seu endereço de email
-    $subject = "Nova mensagem de contato de $nome";
-    $body = "Nome: $nome\nEmail: $email\n\nMensagem:\n$mensagem";
-    $headers = "From: $email";
-
-    // Envia o email
-    if (mail($to, $subject, $body, $headers)) {
-        echo "Mensagem enviada com sucesso!";
-    } else {
-        echo "Erro ao enviar a mensagem. Tente novamente mais tarde.";
-    }
-}
 ?>
