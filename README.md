@@ -1,12 +1,11 @@
 
 # My Portfolio
 
-So, this is my portfolio. You can see my experiences in it.
+So, this is my portfolio. You can see my experiences and projects in it.
 
-## How can i see the project?
+## How can I see the project?
 
  - [Click here](https://rauldevportfolio.netlify.app/)
-
 
 
 ## Authors
