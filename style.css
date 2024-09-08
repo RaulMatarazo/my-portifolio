@@ -61,7 +61,7 @@ a{
 
 .main-1-board-1{
     height: 300px;
-    width: 400px;
+    width: 500px;
 }
 
 /* MAIN-1-BUTTONS*/
@@ -104,6 +104,14 @@ a{
         justify-content: center;
         padding: 15px;
         align-items: center;
+    }
+
+    .main-1-board-1{
+        width: 300px;
+    }
+
+    #medium{
+        display: none;
     }
 
     ul{
